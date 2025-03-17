@@ -1,0 +1,33 @@
+# Ignore PDF, Word, PowerPoint, Excel, and other Microsoft Office files
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+*.csv
+*.zip
+
+# Ignore images
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+
+# Ignore virtual environments
+.venv/
+venv/
+
+Allow only code files (Python, C, C++, Java, JavaScript, etc.)
+Uncomment if needed
+!*.py
+!*.c
+!*.cpp
+!*.java
+!*.js
+!*.html
+!*.css
